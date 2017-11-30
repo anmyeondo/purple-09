@@ -124,11 +124,21 @@
     display: none;
 }
 
+
 /*********************UserInfo***************/
 #userInfo {
     width: 100%;
     height: 900px;
     display: none;
+}
+
+#infobox {
+    width: 40%;
+    border : 3px solid rgba(5,5,5, 0.1);
+    background: white;
+    position: relative;
+    left: 30%;
+    text-align: center;
 }
 /********************LICENSE*****************/
 #License {

@@ -5,15 +5,16 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> <!--icon-->
       
     <link rel="stylesheet" type="text/css" href="index.css"> <!--css-->
-      
+    
     <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'><!--font-->
+    
     <meta charset="utf-8">
       
       <title>purple-09</title>
   </head>
   <body>
     <div class="title">
-        <a class = "logo" href="http://web-ops-3c8e8.firebaseapp.com"> CardShare </a>
+        <a class = "logo" href="index.html"> CardShare </a>
     </div>
     
     <div id="icon">
@@ -28,17 +29,36 @@
         </div>
         
         <div id="Login">
-            <div class="auth">
-            <span id="AUTH_STATE"></span>
-            </div>
-            <div class="act">
-            <button id="GOOGLE_LOGIN" type="button">구글 로그인</button>
-            <button id="LOGOUT" type="button" style="display: none">로그아웃</button>
+            
+            <h3 style="text-align: center"> Sign Up</h3>
+            <div id="signUpbox">
+                <center><input id="upMail" class="mdl-textfield__input" style="width: auto" placeholder="Email"/></center>
+                <center><input id="upPassword" type="password" class="mdl-textfield__input" style="width: auto" placeholder="Password"/></center>
+                <center><input id="upName" class="mdl-textfield__input" style="width: auto" placeholder="Name"/></center>
+                <center><button id="signup" class="mdl-button mdl-js-button mdl-button--raised">Sign Up</button></center>
             </div>
             
+            <h3 style="text-align: center"> Sign In</h3>
+            <div id="signInbox" style="align-content: center">
+                <center><input id="inMail" class="mdl-textfield__input" style="width: auto" placeholder="Email" /></center>
+                <center><input id="inPassword" class="mdl-textfield__input" type="password" style="width: auto" placeholder="Password"/></center>
+                <center><button id="signin" class="mdl-button mdl-js-button mdl-button--raised">Sign in</button></center>
+                <br><br>
+                
+                <center><i id="GOOGLE_LOGIN" class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i></center>
+            </div>
         </div>
-        <div id="userInfo">
         
+        <div id="userInfo">
+            <div id="userPhoto">
+                <img src="empty_user_img.png" width="250px" height="250px" style="margin: 40px 40%">
+            </div>
+            <div id="infobox">
+                <p>UID : <span id="userUID"> </span></p>
+                <p>메일 : <span id="userMail"> </span></p>
+                <p>이름 : <span id="userName"> </span></p>
+            </div>
+            <center><button id="LOGOUT" class="mdl-button mdl-js-button mdl-button--raised">로그아웃</button></center>
         </div>
         <div id="License" style="margin-top: 5%">
             <p>
@@ -198,7 +218,7 @@ limitations under the License.
         </li>
         <li class="hex">
           <div class="hexIn">
-            <a class="hexLink" href="http://output.jsbin.com/nocawaj">
+            <a class="hexLink" href="card1.html">
               <img src="http://imgnews.naver.net/image/421/2017/11/01/0003025321_001_20171101175728449.jpg" alt="" />
               <h1>술 칼로리</h1>
               <p>술은 살 안 찐다? 술 칼로리의 진실</p>
@@ -375,6 +395,8 @@ limitations under the License.
           };
           firebase.initializeApp(config);
       </script>
+      
+<!-----------------------jsfile---------------->
       <script type="text/javascript" src="index.js"></script>
   </body>
 </html>
