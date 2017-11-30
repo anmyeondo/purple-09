@@ -27,6 +27,7 @@
 
   - 1.6 There is no specific code format.
 
+
 ### install firebase
 
     $npm install -g firebase-tools
@@ -38,6 +39,9 @@
   - specific information to https://firebase.google.com/docs/hosting/quickstart?authuser=0
 
 
+-  
+-  
+-  
 ## 3. specification (for Developer)
 -  npm
 -  jquery
