@@ -39,9 +39,10 @@
 
 
 ## 3. specification (for Developer)
-
-    1. npm
-    2. jquery
-    3. firebase
-    4. chrome
-    5. fontawesome
+- 1. npm
+- 2. jquery
+- 3. firebase
+- 4. chrome
+- 5. fontawesome
+- 6. Facebook API
+- 7. Twiter API
