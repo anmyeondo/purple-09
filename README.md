@@ -39,11 +39,11 @@
 
 
 ## 3. specification (for Developer)
-- 1. npm
-- 2. jquery
-- 3. firebase
-- 4. chrome
-- 5. fontawesome
-- 6. Facebook API
-- 7. Twitter API
-- 8. NAVER Developer API
+-  npm
+-  jquery
+-  firebase
+-  chrome
+-  fontawesome(icon site)
+-  Facebook API
+-  Twitter API
+-  NAVER Developer API
