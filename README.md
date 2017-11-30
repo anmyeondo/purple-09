@@ -45,4 +45,5 @@
 - 4. chrome
 - 5. fontawesome
 - 6. Facebook API
-- 7. Twiter API
+- 7. Twitter API
+- 8. NAVER Developer API
