@@ -2,15 +2,15 @@
 
 ## 1. How to use (for user)
 
-	1.1. visit https://web-ops-3c8e8.firebaseapp.com/
+1.1. visit https://web-ops-3c8e8.firebaseapp.com/
 
-	1.2. Click Menu icon
+1.2. Click Menu icon
 
-	1.3. Click Login
+1.3. Click Login
 
-	1.4. if you have account then sign in, if you haven't account sign up or sign in google account
+1.4. if you have account then sign in, if you haven't account sign up or sign in google account
 
-    1.5. Upload function is coming soon...
+1.5. Upload function is coming soon...
 
 
 ## 2. Introduction (for Developer)
