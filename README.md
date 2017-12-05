@@ -8,7 +8,7 @@
 
 1.3. Click Login
 
-1.4. if you have account then sign in, if you haven't account sign up or sign in google account
+1.4. if you have account then sign in. if you don't have account then sign up or sign in with google account
 
 1.5. Upload function is coming soon...
 
