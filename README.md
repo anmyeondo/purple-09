@@ -25,7 +25,7 @@
 
   - 1.5 create firebase project https://firebase.google.com/
 
-  - 1.6 There is no specific code format.
+  - 1.6 Variable name is follow camelcase.
 
 
 ### install firebase
